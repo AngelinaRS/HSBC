@@ -1,0 +1,28 @@
+{
+    "AS_Label_bebc41c07b444b459c3eefdb011c4add": {
+        "id": "AS_Label_bebc41c07b444b459c3eefdb011c4add",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmHomeKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c5f101fda6f845a58c6ba825bf5b820b"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET_onTouchEnd_a4e0a4d90220447a93d8238ea44f4ff6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmHomeKA.lblWatchListKA.skin=sknlblOpenSansBold9e9e9e96KA;\nfrmHomeKA.lblTopGainersKA.skin=sknlblOpenSansBold9e9e9e96KA;\nfrmHomeKA.lblDiscoverKA.skin=sknlblOpenSansBoldffffff96KA;\n\nfrmHomeKA.flexSelectedWatchListKA.isVisible=false;\nfrmHomeKA.flexSelectedTopGainersKA.isVisible=false;\nfrmHomeKA.flexSelectedDiscoverKA.isVisible=true;\n\nfrmHomeKA.FlexScrollMarketKA.isVisible=false;",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "AS_Label_698232f0c9dc46589778f12ddf4397f9": {
+        "id": "AS_Label_698232f0c9dc46589778f12ddf4397f9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmSecondKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f93027a534ef492e90e02f2a2db97464"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__fedb4a6eadc34d509ac53a695be5417b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmSecondKA.lblWatchListKA.skin=sknlblOpenSansBold9e9e9e96KA;\nfrmSecondKA.lblTopGainersKA.skin=sknlblOpenSansBoldffffff96KA;\nfrmSecondKA.lblDiscoverKA.skin=sknlblOpenSansBold9e9e9e96KA;\n\nfrmSecondKA.flexSelectedWatchListKA.isVisible=false;\nfrmSecondKA.flexSelectedTopGainersKA.isVisible=true;\nfrmSecondKA.flexSelectedDiscoverKA.isVisible=false;\n\nfrmSecondKA.FlexScrollMarketKA.isVisible=true;\nfrmSecondKA.flexTargetsKA.isVisible=false;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

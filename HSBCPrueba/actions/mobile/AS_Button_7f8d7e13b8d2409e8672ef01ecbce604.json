@@ -1,0 +1,33 @@
+{
+    "AS_Button_7f8d7e13b8d2409e8672ef01ecbce604": {
+        "id": "AS_Button_7f8d7e13b8d2409e8672ef01ecbce604",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHomeKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "1bb1afeed02b4adab85bb7bc9a906b1e"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__472628761c634ac9a93acd9ba8b1b523",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmHomeKA.ImgLogginKA.isVisible=false;\nfrmHomeKA.flexLoginContainerKA.isVisible=false;\nfrmHomeKA.flexSkipKA.isVisible=false;\n\n//frmSecondKA.flexSecundaryContainerKA.isVisible=true;\n",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "NAVIGATE_TO_FORM___9b67c10be28e405da229c9867a085f4e",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmSecondKA",
+            "formKUID": "f93027a534ef492e90e02f2a2db97464",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

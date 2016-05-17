@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "54.41%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1a93c6cf649450284fa6692de758e0c",
+    "_src_": "graph.png",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "frmSecondKA",
+        "platform": "iphone",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "id": "imgGraph3KA",
+    "imagescalemode": 1,
+    "info": null,
+    "isvisible": true,
+    "kuid": "ae833401ffe7462498691dbe9a7f38ca",
+    "name": "kony.ui.Image2",
+    "parent": "flexTarget3KA",
+    "pf": "frmSecondKA",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5
+}

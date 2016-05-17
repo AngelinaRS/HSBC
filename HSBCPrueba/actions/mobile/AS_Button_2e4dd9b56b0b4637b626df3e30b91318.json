@@ -1,0 +1,34 @@
+{
+    "AS_Button_2e4dd9b56b0b4637b626df3e30b91318": {
+        "id": "AS_Button_2e4dd9b56b0b4637b626df3e30b91318",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHomeKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c5f101fda6f845a58c6ba825bf5b820b"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET_onClick_e460aba7f932409f90d0e9f078f89fb2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmHomeKA.ImgLogginKA.opacity=0;\nfrmHomeKA.flexLoginContainerKA.opacity=0;\nfrmHomeKA.flexSkipKA.opacity=0;\n",
+            "callbackType": null
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY____55dc9ea14dfe4cf78e37cf252652fe5c",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmHomeKA",
+            "propertyName": "isVisible",
+            "propertyValue": "true",
+            "itemKUID": "1bb1afeed02b4adab85bb7bc9a906b1e",
+            "widgetKUID": "a5291082569e4c519bd1d107d7303662",
+            "isSkinProperty": false,
+            "forkedPlatform": "all",
+            "callbackType": null
+        }]
+    }
+}

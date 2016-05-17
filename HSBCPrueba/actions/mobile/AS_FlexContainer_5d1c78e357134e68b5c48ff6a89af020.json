@@ -1,0 +1,88 @@
+{
+    "AS_FlexContainer_5d1c78e357134e68b5c48ff6a89af020": {
+        "id": "AS_FlexContainer_5d1c78e357134e68b5c48ff6a89af020",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSecondKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f93027a534ef492e90e02f2a2db97464"
+        },
+        "actions": [{
+            "id": "MOVE_ACTION____263d8e370a404b1382d872b9945467f9",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmSecondKA",
+            "widgetId": "flexTarget2KA",
+            "itemKUID": "f93027a534ef492e90e02f2a2db97464",
+            "widgetKUID": "e262a243cf0f4be7bffa8ad425eb63c4",
+            "animationObject": {
+                "centerX": "-50%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "1000"
+            },
+            "start": "Immediately",
+            "animationId": "MOVE_ACTION____263d8e370a404b1382d872b9945467f9",
+            "displayAnimationId": "MOVE_ACTION____263d8e370a404b1382d872b9945467f9",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY____058609ceb27f4008b72be9f1c65771c3",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmSecondKA",
+            "widgetId": "flexTarget1KA",
+            "propertyName": "skin",
+            "propertyValue": "sknflexffffffKA",
+            "itemKUID": "f93027a534ef492e90e02f2a2db97464",
+            "widgetKUID": "a96c98de20e14e4585680defd3da088a",
+            "skinKUID": "s9702620a8844244a28a578917d37de3",
+            "isSkinProperty": true,
+            "currentTheme": "defaultTheme",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___9dfc8a9f9dee4f6fa4e9f4abd463a10a",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmSecondKA",
+            "widgetId": "flexTarget1KA",
+            "propertyName": "width",
+            "propertyValue": "70%",
+            "itemKUID": "f93027a534ef492e90e02f2a2db97464",
+            "widgetKUID": "a96c98de20e14e4585680defd3da088a",
+            "isSkinProperty": false,
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___f74657767d4b4f1aa90f0adfd57c78ae",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmSecondKA",
+            "widgetId": "flexTarget1KA",
+            "propertyName": "top",
+            "propertyValue": "18%",
+            "itemKUID": "f93027a534ef492e90e02f2a2db97464",
+            "widgetKUID": "a96c98de20e14e4585680defd3da088a",
+            "isSkinProperty": false,
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

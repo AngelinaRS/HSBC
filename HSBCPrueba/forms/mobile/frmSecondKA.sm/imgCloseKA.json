@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s4c9663249f94f5196c64c826a28352a",
+    "_src_": "icon_close.png",
+    "_width_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "frmSecondKA",
+        "platform": "iphone",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "id": "imgCloseKA",
+    "imagescalemode": 1,
+    "info": null,
+    "isvisible": true,
+    "kuid": "0d21ce024c544eaa8b5c6211aba2e9d3",
+    "name": "kony.ui.Image2",
+    "parent": "flexCloseKA",
+    "pf": "frmSecondKA",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5
+}
