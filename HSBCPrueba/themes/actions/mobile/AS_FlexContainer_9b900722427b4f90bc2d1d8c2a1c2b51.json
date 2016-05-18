@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_9b900722427b4f90bc2d1d8c2a1c2b51": {
+        "id": "AS_FlexContainer_9b900722427b4f90bc2d1d8c2a1c2b51",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSecondKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f93027a534ef492e90e02f2a2db97464"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__e68c78bc583744a5b8010560670a26e7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmSecondKA.imgStockMarketActiveKA.isVisible=false;\nfrmSecondKA.lblStockMarketIMGKA.skin=sknlbl525052OpenSansBold80KA;\n\nfrmSecondKA.imgRatesActiveKa.isVisible=false;\nfrmSecondKA.lblRatesKA.skin=sknlbl525052OpenSansBold80KA;\n\nfrmSecondKA.imgGifsActiveKA.isVisible=false;\nfrmSecondKA.lblProductsKA.skin=sknlbl525052OpenSansBold80KA;\n\nfrmSecondKA.imgAtmActiveKA.isVisible=false;\nfrmSecondKA.lblFindATMKA.skin=sknlbl525052OpenSansBold80KA;\n\nfrmSecondKA.imgMoreActiveKA.isVisible=true;\nfrmSecondKA.lblMoreKA.skin=sknlblffffffOpenSansRegular80KA;\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

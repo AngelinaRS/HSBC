@@ -1,0 +1,23 @@
+{
+    "AS_Form_42a2953d961443408698739906dc415c": {
+        "id": "AS_Form_42a2953d961443408698739906dc415c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmThirdContainerKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "2b0a8f7ec60249749c2b4111ec135523"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__37b3712bee3d4d95907a5f1c93742971",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "loadSegData();\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

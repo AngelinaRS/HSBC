@@ -1,0 +1,115 @@
+{
+    "AS_Segment_c7f1742c42a541329f10b793e10864ca": {
+        "id": "AS_Segment_c7f1742c42a541329f10b793e10864ca",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "seguiWidget"
+        }, {
+            "datatype": "number",
+            "name": "sectionIndex"
+        }, {
+            "datatype": "number",
+            "name": "rowIndex"
+        }],
+        "contextObj": {
+            "name": "frmThirdContainerKA",
+            "type": "forms",
+            "platform": "",
+            "KUID": "2b0a8f7ec60249749c2b4111ec135523"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__613fc262255a4e2485c3fefaf8f402f7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//onSwipe_seg();",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "IF_CONDITION__4676e85699e14134a8d114c235b056d7",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "expression",
+                "leftValue": "rowIndex == 0\n"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "ELSE_IF_CONDITION__a03baae192cd446f939607d85f172682",
+            "type": "ELSE_IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "expression",
+                "leftValue": "rowIndex == 1\n"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "ELSE_IF_CONDITION__d7bd026d20c040a38fba9ec3ca9a32b6",
+            "type": "ELSE_IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "expression",
+                "leftValue": "rowIndex == 2"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___c4a0f825af3543689f6cbd1e295a78a0",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmThirdContainerKA",
+            "widgetId": "lblBlackKA",
+            "propertyName": "text",
+            "propertyValue": "ABOUT",
+            "itemKUID": "2b0a8f7ec60249749c2b4111ec135523",
+            "widgetKUID": "c1c546475f3d44759dcc0cf3b0d6e54e",
+            "isSkinProperty": false,
+            "forkedPlatform": "all",
+            "parentId": "ELSE_IF_CONDITION__d7bd026d20c040a38fba9ec3ca9a32b6",
+            "callbackType": null
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___0f9dc6ebad474720b8dfe12a525a4177",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmThirdContainerKA",
+            "widgetId": "lblBlackKA",
+            "propertyName": "text",
+            "propertyValue": "NEWS",
+            "itemKUID": "2b0a8f7ec60249749c2b4111ec135523",
+            "widgetKUID": "c1c546475f3d44759dcc0cf3b0d6e54e",
+            "isSkinProperty": false,
+            "forkedPlatform": "all",
+            "parentId": "ELSE_IF_CONDITION__a03baae192cd446f939607d85f172682",
+            "callbackType": null
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___2d11d0d3ffcd4483807d8d2c0632ea23",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmThirdContainerKA",
+            "widgetId": "lblBlackKA",
+            "propertyName": "text",
+            "propertyValue": "LATEST",
+            "itemKUID": "2b0a8f7ec60249749c2b4111ec135523",
+            "widgetKUID": "c1c546475f3d44759dcc0cf3b0d6e54e",
+            "isSkinProperty": false,
+            "forkedPlatform": "all",
+            "parentId": "IF_CONDITION__4676e85699e14134a8d114c235b056d7",
+            "callbackType": null
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___a61aedeba39d4946a4a530099cc7480e",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmThirdContainerKA",
+            "widgetId": "lblBlackKA",
+            "propertyName": "text",
+            "propertyValue": "News",
+            "itemKUID": "2b0a8f7ec60249749c2b4111ec135523",
+            "widgetKUID": "c1c546475f3d44759dcc0cf3b0d6e54e",
+            "isSkinProperty": false,
+            "forkedPlatform": "all",
+            "parentId": "IF_CONDITION__947ab44d87e74f0e93e2f52ce9bf5e53",
+            "callbackType": null
+        }]
+    }
+}
